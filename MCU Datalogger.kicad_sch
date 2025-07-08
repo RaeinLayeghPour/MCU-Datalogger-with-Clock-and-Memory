@@ -3258,7 +3258,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 137.16) (xy 139.7 137.16)
+			(xy 137.16 134.62) (xy 139.7 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3355,16 +3355,6 @@
 			(type default)
 		)
 		(uuid "73ca32a1-e2bc-4ae9-8b0a-9e3b4708d4b0")
-	)
-	(wire
-		(pts
-			(xy 236.22 43.18) (xy 236.22 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76a684e1-2a0b-487d-be49-f6a5354b0109")
 	)
 	(wire
 		(pts
@@ -3475,6 +3465,16 @@
 			(type default)
 		)
 		(uuid "901e3281-c459-4a91-a36d-552fbe6102b7")
+	)
+	(wire
+		(pts
+			(xy 137.16 142.24) (xy 139.7 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90a0eb4d-93c2-4aec-a51e-d5a9551d61c2")
 	)
 	(wire
 		(pts
@@ -3648,7 +3648,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 139.7) (xy 139.7 139.7)
+			(xy 137.16 137.16) (xy 139.7 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4096,7 +4096,7 @@
 		)
 		(uuid "4ffadf07-f437-454f-8349-dd6c594da809")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 91.44 110.49 0)
 		(effects
 			(font
@@ -4116,7 +4116,7 @@
 		)
 		(uuid "55dcf38c-e107-4ef5-89e3-ba475758ccc4")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 50.8 104.14 0)
 		(effects
 			(font
@@ -4126,7 +4126,7 @@
 		)
 		(uuid "56c95d25-57b5-4b5a-9007-2dcb328b6de9")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 182.88 91.44 0)
 		(effects
 			(font
@@ -4167,7 +4167,7 @@
 		(uuid "61a0e50f-1a6a-4428-bfa1-fbd70a861208")
 	)
 	(label "TX"
-		(at 137.16 137.16 180)
+		(at 137.16 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4175,6 +4175,16 @@
 			(justify right bottom)
 		)
 		(uuid "6447903e-0939-4be7-b3a0-2a48910637ba")
+	)
+	(label "Vcc"
+		(at 256.54 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e4f01a4-6105-4e35-afa4-dcfe33bf6d60")
 	)
 	(label "D2"
 		(at 218.44 60.96 0)
@@ -4197,6 +4207,16 @@
 		(uuid "71ace448-ce41-496a-9f29-a2130ffd3bd6")
 	)
 	(label "SCK"
+		(at 137.16 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "752bd868-968c-46a8-af74-67465cddfbdc")
+	)
+	(label "SCL"
 		(at 137.16 132.08 180)
 		(effects
 			(font
@@ -4237,7 +4257,7 @@
 		(uuid "887a5fb2-ef06-4cdc-8617-eb77db191866")
 	)
 	(label "RX"
-		(at 137.16 139.7 180)
+		(at 137.16 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4246,7 +4266,7 @@
 		)
 		(uuid "8d11ff77-dd28-4d16-b8a5-ec7b634ce955")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 78.74 104.14 0)
 		(effects
 			(font
@@ -4296,7 +4316,7 @@
 		)
 		(uuid "9701df40-a4c3-45df-8637-7b98919043cd")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 45.72 50.8 0)
 		(effects
 			(font
@@ -4429,7 +4449,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 127 35.56) (xy 274.32 35.56) (xy 274.32 111.76) (xy 127 111.76)
+				(xy 177.8 119.38) (xy 198.12 119.38) (xy 198.12 149.86) (xy 177.8 149.86)
 			)
 			(stroke
 				(width 0)
@@ -4438,7 +4458,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 872e3db3-0340-4edd-9fc2-551303186a25)
+			(uuid 1916753f-ff09-4a92-8813-b90c650be1a6)
 		)
 	)
 	(rule_area
@@ -4453,22 +4473,7 @@
 			(fill
 				(type none)
 			)
-			(uuid a5ed9e96-5844-4b7e-bff8-22952a77a8b1)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 177.8 119.38) (xy 198.12 119.38) (xy 198.12 149.86) (xy 177.8 149.86)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid f13d2415-8f1f-4c71-9154-1e91fc4518b3)
+			(uuid 6d197ee1-b619-47a5-8502-e1a7a4599ee7)
 		)
 	)
 	(rule_area
@@ -4483,7 +4488,22 @@
 			(fill
 				(type none)
 			)
-			(uuid f16f5266-5e7c-427d-8e12-9fc5fcc13f25)
+			(uuid c23d474e-1402-44d1-8576-c21ebb4de92d)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 127 35.56) (xy 274.32 35.56) (xy 274.32 111.76) (xy 127 111.76)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid ed1339aa-353c-4ba5-9bb5-46c0aeed64c3)
 		)
 	)
 	(symbol
@@ -5178,72 +5198,6 @@
 			(project "MCU Datalogger"
 				(path "/19a27ba3-b273-42f4-b520-5672b9fc4c35"
 					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 236.22 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "50e5c31c-8a41-47e3-82a1-c1774b93936f")
-		(property "Reference" "#FLG01"
-			(at 236.22 41.275 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 236.22 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.22 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 236.22 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 236.22 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9aa27fc7-fd6e-4d60-92b9-3fd8b7464496")
-		)
-		(instances
-			(project ""
-				(path "/19a27ba3-b273-42f4-b520-5672b9fc4c35"
-					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -7584,18 +7538,8 @@
 				(justify left)
 			)
 		)
-		(pin "SCK" passive
-			(at 139.7 132.08 180)
-			(uuid "f198ace2-b2d8-488b-a528-c485bdfb5abf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "TX" output
-			(at 139.7 137.16 180)
+			(at 139.7 134.62 180)
 			(uuid "d4b5a933-9349-48b4-aa99-eb50941e8c79")
 			(effects
 				(font
@@ -7605,7 +7549,7 @@
 			)
 		)
 		(pin "RX" input
-			(at 139.7 139.7 180)
+			(at 139.7 137.16 180)
 			(uuid "19af1df5-5cb5-4162-a531-44f8f5f9fc31")
 			(effects
 				(font
@@ -7717,6 +7661,26 @@
 		(pin "SDA" bidirectional
 			(at 139.7 129.54 180)
 			(uuid "833a4cb4-bd55-4b09-a88e-0bef75f20004")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCK" passive
+			(at 139.7 142.24 180)
+			(uuid "f4508fc9-d9c3-471c-9f14-b7597a38f943")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" passive
+			(at 139.7 132.08 180)
+			(uuid "9146c818-7038-4427-a61a-1fd6df0184ba")
 			(effects
 				(font
 					(size 1.27 1.27)

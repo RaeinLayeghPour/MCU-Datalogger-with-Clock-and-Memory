@@ -959,6 +959,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Connectors"
+		(exclude_from_sim no)
+		(at 101.6 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dda19148-d84a-468a-9b94-5251824dfe44")
+	)
 	(hierarchical_label "RX"
 		(shape input)
 		(at 134.62 96.52 0)
@@ -1146,7 +1156,7 @@
 		)
 		(uuid "bd382393-eb91-4fa0-8347-b9dc85eb8765")
 	)
-	(hierarchical_label "SCK"
+	(hierarchical_label "SCL"
 		(shape passive)
 		(at 109.22 99.06 0)
 		(effects
@@ -1211,6 +1221,21 @@
 			(justify left)
 		)
 		(uuid "ffcbd3c7-2d05-4b43-81c0-7b338dfe04ef")
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 96.52 83.82) (xy 200.66 83.82) (xy 200.66 114.3) (xy 96.52 114.3)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid dbb9bf2a-2e1f-419c-9604-a49423b27daf)
+		)
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x09_Pin")
