@@ -47,5 +47,5 @@ A microcontroller-based data logging system featuring a real-time clock (RTC) an
 
 Reach out if you’d like to collaborate or discuss enhancements:
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/raeinlp)
-- ✉️ Email: raeen.layegh2017@gmail.com
+- [LinkedIn](https://www.linkedin.com/in/raeinlp)
+- Email: raeen.layegh2017@gmail.com
